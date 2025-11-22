@@ -149,7 +149,10 @@ predict = 1 if rank in top-K else 0
 ## 1. 建立 Python 3.13.5 虛擬環境
 
 ```bash
-python3 -m venv finenv
+mkdir fintech-esun
+cd fintech-esun
+git clone https://github.com/wen-han-chang/esun-alert-account-prediction-2025-team8294.git
+python3.13 -m venv finenv
 source finenv/bin/activate
 ```
 
@@ -157,14 +160,18 @@ source finenv/bin/activate
 
 ```bash
 pip install --upgrade pip
+cd esun-alert-account-prediction-2025-team8294/
 pip install -r requirements.txt
 ```
 
+## 3. 將訓練資料加入data資料夾，包含
+-acct_alert.csv
+-acct_predict.csv
+-acct_transaction.csv
+
 ---
 
-# ▶️ Run the Entire Pipeline 執行完整流程
-
-只需一行：
+## 4. Run the Entire Pipeline 執行完整流程
 
 ```bash
 python main.py
