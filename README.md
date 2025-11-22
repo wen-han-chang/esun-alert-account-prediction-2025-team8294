@@ -164,10 +164,10 @@ cd esun-alert-account-prediction-2025-team8294/
 pip install -r requirements.txt
 ```
 
-## 3. 將訓練資料加入data資料夾，包含
--acct_alert.csv
--acct_predict.csv
--acct_transaction.csv
+## 3. 將訓練資料加入data資料夾，包含  
+- acct_alert.csv
+- acct_predict.csv
+- acct_transaction.csv
 
 ## 4. Run the Entire Pipeline 執行完整流程
 
